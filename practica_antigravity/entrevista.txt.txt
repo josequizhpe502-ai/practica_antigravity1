@@ -1,0 +1,586 @@
+Buenas tardes con todos. Somos James Romero, José Quizhpe, Ángel Paladines, mi
+0:08
+persona. Y hoy nos reunimos con el magister Alex Cárdenas, coordinador de
+0:14
+la carrera de marketing, para presentar nuestra propuesta de proyecto y realización de levantamiento inicial de
+0:19
+requisitos e información del sistema del centro UID de apoyo y creación para emprendimientos.
+0:26
+Esta reunión está siendo grabada únicamente con fines educativos. de documentación y elaboración del acta.
+0:32
+Con esto dicho, iniciamos la reunión. Eh, introducción al proyecto. A
+0:38
+continuación, queremos presentar brevemente la propuesta del proyecto. La idea consiste en desarrollar un sistema
+0:44
+web para el centro ID de apoyo y co-creación para emprendimientos, cuyo objetivo es apoyar, organizar y dar
+0:50
+visibilidad a los emprendimientos de la comunidad UI. El sistema busca centralizar información sobre emprendimientos, asesorías, eventos y
+0:58
+procesos de apoyo, facilitando la gestión tanto para los administradores como para los emprendedores.
+1:04
+Por ello, esta tiene finalidad de recoger su experiencia y criterio para definir correctamente los requisitos,
+1:11
+funcionalidades y alcance inicial del sistema. Okay. Como primera pregunta, eh,
+1:18
+queremos preguntar lo que sería el enfoque general del centro. Desde su experiencia, ¿qué necesidades principales debería tener un centro de
+1:25
+apoyo y co-creación para emprendimientos en la universidad? Ya. Yo creo que aquí en la universidad
+1:31
+debe tener un centro que está enfocado en en tres servicios importantes. El
+1:37
+primero, ayudarle al estudiante a que pueda desarrollar
+1:43
+eh mejorar su idea, mejorar su proyecto. Eh, ¿en qué sentido? Hay estudiantes que
+1:49
+dicen, "Tengo esta bebida o tengo este chocolate o tengo esta aplicación, pero
+1:55
+eh lo hacen desde su perspectiva. ¿Qué significa? Como
+2:00
+siento que el chocolate sale rico, pienso que ese es el óptimo para venderse en el mercado. En cambio, el
+2:06
+producto debe ser diseñado en función del cliente, porque él es el que paga." Y para eso hay un proceso. Entonces, yo
+2:12
+creo que el primer servicio es ayudarle a que desarrolle mejor su proyecto de emprendimiento. El segundo, brindarle
+2:20
+este servicios complementarios a su negocio, como por ejemplo marketing,
+2:26
+temas eh financieros, temas legales, ¿sí? y también asesoramiento para que
+2:33
+puedas eh desarrollar sus capacidades empresariales. Y lo último, considero que debería ser
+2:40
+un módulo enfocado en la comercialización, que significa que te ayude a abrir
+2:45
+contactos, que te diga, mira, sabes qué, eh, justo soy amigo del los de Calvital
+2:51
+Talba. hable con ellos y estarían dispuestos a que tu producto entre en ese espacio. Porque ojo, los acuerdos
+2:58
+comerciales en el mercado se hacen en función de confianza. Por eso ustedes ven muy productos muy buenos que no
+3:05
+están todavía en los supermercados. ¿Por qué? Porque a veces el dueño del supermercado no lo conoce al
+3:10
+emprendedor, no confía, etcétera. Entonces, yo creo que esos deben ser los tres principales servicios que se deban
+3:16
+brindar. Perfecto. Siguiente pregunta. dice, "¿Cómo le gustaría que este centro
+3:22
+aporte a la imagen institucional y al área de marketing de la vida?" Bueno, yo realmente digo que este este
+3:29
+es eh la forma de cómo nos podría aportar es haciendo que los estudiantes tengan una verdadera conexión
+3:35
+empresarial, ¿sí? O sea, que tengan como este resultado de que tú emprendes y
+3:41
+estás creciendo, que la universidad te está ayudando. Eso nos va a permitir en marketing vender de mucha mejor manera
+3:49
+porque yo puedo decir, miren, ustedes tres no se graduaron de de ingenieros en
+3:55
+sistemas, sino que ustedes tuvieron su título, pero ya tienen sorpresa con ventas. ¿Se dan cuenta? Sí, es muy
+4:03
+diferente. Okay. Dice, "¿Qué debería priorizar una
+4:08
+plataforma eh institucional, el centro de de pollo para generar valor real a
+4:13
+los emprendedores de su primera versión?" Ajá. Yo digo, lo que debe priorizar es el tema del uso de las tecnologías. Ahí
+4:21
+ustedes tienen un rol muy importante porque el emprendedor no sabe cómo usar la tecnología a su favor para procesos,
+4:28
+para producción, para comercialización, para inventarios. Entonces, yo creo que este centro debe como hacer que los
+4:36
+proyectos se conviertan en startups, porque ojo, está comprobado que un startup tiene mejor condiciones para
+4:43
+crecer y convertirse en un unicornio. ¿Qué son empresas unicornio? empresas que facturan más de millón de dólares.
+4:51
+¿Cuáles son las que han facturado más de , millón de dólares? Netflix, Airbnb, Google, Amazon. En el Ecuador, Pushki.
+4:59
+¿Se dan cuenta? ¿Por qué? Porque usan la tecnología dentro de sus operaciones.
+5:05
+Usted como lleva bastante tiempo en este campo del marketing, ¿cuáles son los errores más comunes que se cometen al
+5:10
+intentar digitalizar procesos de apoyo al emprendimiento? eh confundir lo que
+5:15
+es marketing con eh transformación y digitalización eh de una empresa. Muchas
+5:23
+personas piensan que el marketing digital es transformación digital. Entonces, ese es el error más común. La
+5:29
+el marketing digital es el uso de las herramientas para publicitar, comercializar, vender y posicionarte. La
+5:37
+transformación digital, en cambio, es una cultura empresarial. Al interno usas
+5:42
+procesos, automatizas, eh utilizas eh domótica, un montón de
+5:48
+cosas, ¿se dan cuenta? Entonces, primero es eso. Segundo también que el emprendedor no sabe utilizar las
+5:54
+herramientas digitales. Hoy en día el chat GPT es una herramienta muy
+5:59
+elemental para que el emprendedor pueda crear contenidos, elaborar propuestas,
+6:05
+crear estrategias, autoaforarse. Entonces es un montón de de
+6:10
+posibilidades. Y otro de los errores es que los emprendedores no saben cómo
+6:16
+llevar adelante su proyecto. Ellos están a la espera de alguien más. ¿Qué significa eso? Ustedes hacen su
+6:24
+bebida y esperan a que el municipio haga una feria para ir a pedir. Pero no es es
+6:29
+un tema de que mira, haces la bebida, mañana ándate al supermercado X. Te va a decir que no, no hay problema. Pasado al
+6:36
+otro, te va a decir que sí. El otro probablemente te va a decir que sí. el otro que no, pero vas creciendo.
+6:43
+Cuando vea el más grande de que tú estás metido en 10 tiendas de barrio, el
+6:49
+supermercado más grande va a decir, "Yo también quiero." Cuando veas que estás en supermercados medianos, el
+6:56
+supermercado más grande de la ciudad va a decir, "Venga acá." ¿Se dan cuenta? En cambio, eledador quiere ir de una al
+7:03
+grande porque piensa que ahí hay mercado, porque piensa que ahí hay ventas aseguradas y no, váyanse al
+7:10
+supermaximo. Encuentran un montón de marcas, un montón de productos y a cuál
+7:15
+vamos a consumir a los que más conocemos. marcas nuevas todavía no nos arriesgamos en conocer, en consumir.
+7:25
+Okay. Conente pregunta sería, ¿qué aspectos valoran más los emprendedores para interactuar con un centro de apoyo?
+7:32
+Eh, ya sea visibilidad, acompañamiento, seguimiento o acceso a recursos.
+7:38
+Eh, el tema de acceso a recursos no es algo que un centro de emprendimiento debe evitar. De hecho, muy pocos, muy
+7:46
+pocos centros en el mundo lo hacen y cuando lo hacen es porque alguien más
+7:51
+está detrás dando dinero. Entonces, lo que yo más digo de un
+7:56
+centro de emprendimiento, lo que el emprendedor valora es la asesoría,
+8:01
+esa esos contactos y el acompañamiento.
+8:07
+Okay. Y dice, "¿Qué información considera clave que un emprendedor puede gestionar directamente dentro de la
+8:12
+plataforma? Perdón, perdón. ¿Qué información considera clave que un emprendedor pueda gestionar directamente
+8:20
+dentro de la plataforma? Este, todo lo que debe hacer al momento de constituir un negocio, eso es fundamental.
+8:27
+El emprendedor no sabe, por ejemplo, qué tipo de rot sacar, no sabe qué perm qué
+8:34
+qué tributos, qué permisos, qué cosas debe sacar. No sabe qué opción tomar. me
+8:40
+toco en el camino que dicen, "Yo hice una empresa." Le digo, "¿Por qué hice una empresa?" No sé, es que suena más bonos decir que soy empresario. Y luego
+8:48
+se dan cuenta que es una carga, es un montón. Entonces yo les digo, "A ver, ¿te haces empresa cuando quieres crecer?
+8:54
+Cuando has tenido ya facturación, tienes ventas, tienes una estructura, demandas de más equipo y quieres cuidar tu
+9:01
+patrimonio que no se involucre con tu negocio." Entonces todo eso yo digo es elemental. También yo pondría dentro de
+9:09
+la plataforma los servicios que prestan los diferentes sectores e instituciones
+9:15
+de entrenamiento. Así tú emprendes y dices, "A ver, ¿quién podrá dar una capacitación?" Entras a la plataforma y
+9:23
+Paris la UID tiene un programa de incubación empresarial. Dices, ¿quién me
+9:28
+podrá ayudar con el permiso de la registro de la marca? V y ves y dices
+9:34
+este este buffet legal registro marques. Sí.
+9:39
+Okay. Ya. Eh, quería preguntarle qué tipo de información debería mostrarse
+9:45
+públicamente para dar visibilidad a los emprendimientos sin afectar su competencia.
+9:50
+Ya. O sea, yo digo debería hacerse un catálogo ahí sin favorecer, sin más y menos.
+9:57
+Debería hacerse un catálogo en el que esté establecido por rubros. Sí. en el cual digan, "A ver, si quieres
+10:03
+chocolates, estas son las marcas." Sin favorecer a uno más, sin dejar su
+10:08
+propuesta de valor. Más bien yo haría como que se linken a a sus propios
+10:13
+espacios digitales para que la gente conozca y se convenzca. ¿Okay? ¿Y qué recomendaciones daría para
+10:22
+que la plataforma institucional del centro de apoyo se mantenga activa y útil en en este tiempo? O sea, no se
+10:29
+queda obsoleto. Ajá. Yo yo vuelvo a decir y lo mismo que le dije al grupo de la mañana, eh para
+10:36
+que estos servicios institucionales tengan esta actividad, hay que darle más enfoque a más de su propósito. Sí,
+10:45
+porque hay muchas aplicaciones y hay muchas plataformas que se quedan obsoletas y dejan de ser utilizadas.
+10:53
+Ya. Entonces, yo considero de que debemos para eso, yo considero que ustedes deben
+11:00
+hacer un ejercicio con los estudiantes y les pueda preguntar, "Mira, estamos haciendo una plataforma para
+11:06
+emprendedores o de un centro de emprendimiento digital, ¿qué cosas te gustaría que tenga a más del
+11:12
+emprendimiento? que un estudiante les diga, "Mira, mi invento." Me gustaría que me informe acerca de cuáles son los
+11:20
+beneficios que tiene la ID o me gustaría que imprima los cupones para ir a saber dónde debo comer o una cartelera de
+11:27
+eventos. Hay que lograr que estas plataformas se conviertan en un medio.
+11:32
+Sí. No en un momento. En un momento es yo quiero emprender, entro a la página y
+11:38
+veo los requisitos, listo, nunca más volví. ¿Se da cuenta? Ahí no es
+11:43
+sostenible. En cambio, un medio es que hoy entro por los requisitos, pero mañana algo pasado
+11:50
+encuentro pasado, yo mismo puedo limpiar mismo y yo puedo hacer un CDM. Entonces,
+11:56
+yo creo que ahí ustedes tienen que hacer un juego importante para saber qué cosas el estudiante podría necesitar que esta
+12:04
+plataforma les pueda usar. Ahí va a tener mucho uso. Perfecto.
+12:09
+Considente, ¿qué acciones considera que debería poder realizar directamente el área de marketing dentro del sistema?
+12:15
+Ya yo creo que ahí es netamente estrategias de comercialización e impulso de los productos. No puede
+12:22
+hacer más. O sea, desde el área de marketing, la otra parte la hace el dueño del negocio, el estudiante. Pero
+12:30
+el área de marketing es, vamos a hacer un evento, una feria, vamos a hacer un
+12:35
+encuentro empresarial, vamos a hacer un reel contando los productos que hay en
+12:41
+la plataforma. Entonces es más impulsamiento y y publicidad. ¿Le
+12:47
+parecería útil poder filtrar o clasificar los emprendimientos por estado tipo nivel o el nivel de avance
+12:53
+que vaya teniendo en su idea? Yo más bien los No, no en eso porque no
+12:58
+hay no hay en el mundo un parámetro que te permita decir tú crees tu negocio va en
+13:06
+nivel dos o va en nivel 10. No hay hay cuatro cosas que se considera para el
+13:13
+crecimiento de los negocios, ¿no? Eh, técnicamente, número de empleados,
+13:18
+número de facturación, años de servicios y lugares en los que opera. Con eso se considera pequeña,
+13:26
+mediana, naciente, grande, unicornio, todo eso sí son los cuatro factores.
+13:33
+Pero en Loja y peormente en estudiantes no van a poder hacer visible eso, ¿se
+13:38
+das cuenta? Porque para que un estudiante llegue a ser un unicornio podría ser que tenga una idea ganadora y
+13:45
+en dos meses sea un unicornio como que puede que sea 20 años o 30. Sí.
+13:50
+Entonces, yo más bien les recomiendo que hagan una clasificación por rubros. ¿Qué significa? Artesanías, deporte,
+13:59
+belleza, moda, textiles, cosas así. A ver, postres, todo eso para irlos como
+14:06
+agrupando en sectores y brindarles una atención.
+14:11
+Ya esto creo necesario que es necesario contar con un espacio donde donde el
+14:16
+área de marketing puede sacar o promocionar ciertos emprendimientos con los emprendedores. Sí, sí, sí. Tendríamos que abortar un
+14:23
+store donde los productos de los estudiantes puedan ser comercializados,
+14:29
+puedan ser visibles, todo ese tipo de cosas. ¿Qué tipo de herramientas facitaría
+14:37
+facilitarían la difusión de emprendimientos desde el sistema? eh redes sociales, eh mailing, ¿sí? Y
+14:45
+también este la aplicación, una aplicación que los estudiantes
+14:50
+puedan tener acceso, o sea, ustedes se podrían aclarar a la aplicación del h de la mañana, pero él tiene que lograr que
+14:57
+esa red social se vuelva muy usable para que llegue sus recomendaciones, todo.
+15:04
+El joven de la mañana está haciendo una aplicación móvil, ¿no es cierto? Ajá. Y nosotros nos encargamos este server, una aplicación web. Ajá. Entonces se van
+15:11
+conectando. Sí, super chévere. Me gustaría que el sistema permita registrar actividades de promociones
+15:17
+realizadas a cada emprendimiento. Sí. Ajá. O sea, esto tiene que estar ligado con marketing. Eh, hacer
+15:24
+marketing online y marketing offline. ¿Qué significa online? Significa que
+15:30
+ustedes pueden decir, "Vamos a hacer el cyber monday. El lunes todos los que entren a la plataforma van a recibir 2s
+15:36
+por un o 10% de descuento. Ya. Y en lo físico, en cambio a que haya fiches, que
+15:43
+haya señal éticas en el campus que diga, entra a la plataforma y aprovecha los
+15:49
+productos que estén en descuento. ¿Se da cuenta? Sí.
+15:54
+Eh, ¿qué información le ayudaría a identificar qué emprendimientos están activos eh estancados o finalizados?
+16:01
+Ya yo mucho me doy cuenta, aunque no lo crean, porque esa es otra cosa. Si ustedes entran a la base de datos del
+16:07
+SRI, pueden que encuentren a Alex eh emprendedor con un RUC desde el 2000,
+16:14
+desde 1999, pero pueda que yo llegue y diga, "Sí, lo tengo activo por cualquier día que me
+16:20
+llegue un proyecto, pero no facturo, no vendo." Entonces el dato del del no es
+16:26
+tan confiable. ¿Me hago entender? Entonces, a lo que yo voy para darme
+16:32
+cuenta si ese negocio está activo, mucho sus redes sociales. Si yo veo que una red social está
+16:39
+abandonada ya un año sin publicaciones, sin nada, significa que ese emprendimiento ya dejó de funcionar.
+16:46
+Miren, o sea, no es técnico lo que les digo, pero es un medio más tranquilo a mí que ir al Sri y ver que hace 10 años
+16:54
+Alex Rook y pensar que porque sigue activo todavía está en cooperaciones.
+17:00
+Ahí falta todavía hacer algo. ¿Considera necesario que el sistema registre interacciones como asesorías,
+17:07
+eventos o participaciones externas? Sí, sí, sí. que se conecte con varios eh
+17:12
+eh le dé esa opción del ecosistema.
+17:19
+Eh, una pregunta acá, eh hace rato mencionó que a veces se ayudan con CH
+17:25
+GPT acceso. ¿Consideraría que es necesario implementar este un sistema de
+17:31
+o el lápiz de alguna y ponerle en el sistema para que aparte de lo que
+17:37
+tengas ser ya los los de acá? Sí. Ajá. que se conecte, que les vaya asesorando, que les tenga un
+17:43
+chat, que los guíe. Ya.
+17:49
+Eh, ¿qué información considera apropiada mostrar públicamente sobre los emprendimientos?
+17:55
+Eh, sus contactos, una descripción del producto y cómo pueden comprar o dónde
+18:02
+los pueden comprar. ¿Cre que una plataforma institucional puede mejorar la visibilidad y
+18:08
+percepción de los proyectos ante la comunidad? Eh, honestamente depende
+18:13
+mucho del uso de la plataforma. Ajá. Ese es el reto que tienen ustedes.
+18:19
+Podría, sí, siempre y cuando sea una página muy bien posicionada. Sí,
+18:25
+como por ejemplo, ustedes entran a la página de la UID, no entran por
+18:30
+información. ¿Cuándo entraron por información? la primera vez que quieren matricularse. De ahí no volverían a
+18:37
+entrar nunca más, ¿se dan cuenta? Pero ustedes siguen entrando a la página porque ahí está la biblioteca virtual,
+18:44
+por ahí acceden al canvas, por ahí acceden a sus notas, ¿se dan cuenta? Por
+18:50
+ahí acceden al correo. Entonces ustedes tienen que hacer que la gente es a eso me refiero, que use esa plataforma.
+18:57
+Claro, puedo ver este una sección de promociones, una sección de de los
+19:03
+emprendimientos para llamar la atención de gente, o sea, de que decir eh mañana me voy a conectar la página para que de
+19:09
+nuevo. Exacto. Solo así haces. Y Ivón, espéreme un segundo, por favor. Estoy saliendo de
+19:15
+tutoría ya. Oye, ya. Ya, entonces este solo así
+19:21
+logras que haya uso. Pero vuelvo a decir, si la haces solo de emprendimiento, significa que tú vas a
+19:27
+entrar a la plataforma solo cuando quieras comprar un producto o solo cuando quieras venderla.
+19:33
+Entonces, solo me estás conectando un momento. ¿Se han dado cuenta? Eh,
+19:38
+analicen muy bien Amazon. ¿Se han dado cuenta que Amazon? Amazon es lo que ustedes buscan. Eh, Amazon este
+19:47
+eh tiene blogs, tiene un montón de cosas. Oye, ¿se da cuenta? Eso es el tema de hacer que la gente use su
+19:54
+plataforma para algo más que no necesariamente sea la compra y venta,
+19:59
+porque ahí se va a volver condicionante. Sí, yo voy a entrar a la plataforma solo
+20:05
+cuando quiera comprar el producto y como son estudiantes de la UID, yo tengo que tener un orgullo por la UID. ¿Se das
+20:13
+cuenta? Sí. ¿Qué significa eso? Yo quiero un chocolate y diga, "No, es que como la
+20:18
+Biblia es mi universidad, les voy a comprar a los chicos que están aprendiendo de se dan cuenta así tendría
+20:24
+que pensar el consumidor. Y si no tiene ese orgullo,
+20:31
+va a decir, "Quiero chocolate, lo busco en cualquier otro lado." ¿Nos damos cuenta? Sí. Ajá. Entonces, por eso hay que pensar
+20:37
+muy bien en esos en esa experiencia. Ya, disculpe también en la aplicación
+20:42
+sería bueno o sería útil en su experiencia de que mediante el número de
+20:49
+visibilidad o clicks que den en un producto, por ejemplo, un chocolate. Ajá. Yo yo los más que en clics, yo
+20:56
+pondría el ranking de los productos más comprados. Okay. Para, por ejemplo, decir este a un
+21:02
+emprendedor, "Tu producto no se está haciendo muy visible, puedes cambiar tal cosa o
+21:08
+Sí. Él te va a hacer siempre y cuando venta, ¿okay? Si no, no te lo hace.
+21:14
+Puedes hacer como un ranking para que tu producto no funciona, entonces algo está mal ahí.
+21:19
+Claro, pero ahí tienes tú demostrar que efectivamente eh An un segundo ya tienes que demostrar
+21:29
+efectivamente que la que tienes 2 millones de personas
+21:34
+en la plataforma. Solo ahí le puedes decir al emprendedor, verás, Alex, este,
+21:40
+han entrado 2 millones de personas, pero nadie ha visto tu producto. Es porque te falta tener una buena foto, te falta
+21:47
+tener este un video, te falta poner tus redes. Eh, ahí tienen que pensar en
+21:53
+cambio en el algoritmo de TD Advisor y de Airbnb. Sí, por ejemplo, el BNB
+21:59
+Batvisor notifica los restaurantes. Yo tengo también un grupo de restaurantes.
+22:05
+Entonces te notifica y te dice, "Alex, este, estás en la posición cuatro de
+22:12
+todos los restaurantes en Loja. Para que subas a la 1 tienes que hacer tales cosas."
+22:18
+Y luego te dicen, Alex, 12,000 personas han entrado y como estás en la cuarta
+22:24
+opción, solo te han visto 300. Mejora esto, mejora esto, mejor. Entonces ahí tú incentivas, ¿se da cuenta? Ahí porque
+22:33
+te demuestra que tienes ventas. Perfecto. Ajá. En cambio, Airbnb tiene un modelo
+22:38
+diferente. Airbnb te dice, tienes que crear contenido, cumplir todos los pasos
+22:44
+para nosotros ponerte las primeras ocupaciones. Pero como la gente ve que es factible, no sé si ustedes alquilan
+22:51
+en Airbnb, pero la gente dice, "Ay, yo subo mi mi habitación y definitivamente
+22:59
+la alquilabo." ¿Se dan cuenta? Es algo comprobable porque ojo, si a mí me haces
+23:06
+que haga una foto, un video, una descripción, el catálogo, todas las
+23:11
+semanas esté publicando cosas y no genero ventas, eh, no, yo no voy a seguir en la
+23:18
+plataforma como prendedor. Y eso te digo, la diferencia entre Simy y Clip.
+23:24
+No sé si sabían que Clip está cerrando su módulo de astronomía de de tias. ¿Por
+23:30
+qué? porque Clip no estátiendo mucho a los negocios. Entonces te llega un pedido clip
+23:38
+una vez a los dos tr meses. En te llega cada semana y si eres un un restaurant
+23:45
+más visible te llega todos los días pedidos. Entonces ahí si tú te interesas y tú dices, claro, me dice que ahora
+23:52
+hago un video, hago una campaña, haga esto de una y yo lo hago porque estoy
+23:57
+viendo resultado, pero en clip no se me ocurre ni siquiera publicar en mis redes
+24:02
+diciendo, cómpranos ese clip, porque sé que esa es una aplicación que no está
+24:08
+teniendo auge. Sí. Y también le gustaría la funcionalidad de puntuar, calificar el emprendimiento,
+24:16
+el producto. Sí. Ajá. Dej una reseña. Claro, también es importante porque así le dan seguridad al comprador. Ustedes
+24:24
+tienen que pensar de los dos lados. Miren, su proyecto es bonito, pero es complejo porque ustedes tienen que
+24:30
+buscar cómo contentar al emprendedor. El emprendedor se va a contentar si le das
+24:35
+la información buena, si le das herramientas y si le ayudas a vender.
+24:40
+¿Se da cuenta? Y el cliente Car se va a contentar si le
+24:45
+llega el producto, si el producto cumple las condiciones y si no es estafado,
+24:51
+etcétera. Claro. ¿Qué otro más? Le parece útil que el sistema funcione
+24:58
+también como vitrina institucional de emprendimientos. Eh, sí, podría ser también. Eh, como les
+25:05
+digo, va a ser útil siempre y cuando esa plataforma tenga un gran uso, un gran
+25:13
+uso. No sé si han escuchado alguna vez el tema de eh
+25:21
+Un momentito, Samuela, estoy saliendo de tutorial ya. Entonces, no sé si ustedes han escuchado
+25:28
+alguna vez el tema de Hugo en Loja, no enloja.
+25:34
+Así que bueno, no sé si han visto ustedes han entrado, de seguro sí,
+25:40
+rincónelvago.com han entrado. Creo que sí. Ya, miren, esta se volvió esa plataforma
+25:47
+muy muy visitada. ¿Por qué? Porque tú subías deberes y encontrabas deberes.
+25:53
+¿Te das cuenta? Entonces le diste un fin a la plataforma. Claro. Y ya luego ellos empezaron a poner
+26:00
+anuncios, gente que hacía tesis, gente que hacía ejercicios. Ahí empezaron a cobrar, ya te bloqueaban
+26:08
+ciertas partes del ejercicio matemático, el ensayo, el resumen del libro, ¿se dan
+26:14
+cuenta? Porque entendieron ese interés. Ahora, aquí nosotros tenemos que
+26:19
+intentar eso para que haya ese uso de la plataforma. Ahí sí me interesa. Alex,
+26:26
+mira, eh, la UID tiene una plataforma que lo visitan 20,000 estudiantes. ¿Te
+26:32
+gustaría que te publicite? Sí, hasta yo les pago por estar ahí. ¿Está oferta?
+26:40
+También una funcionalidad sería, por ejemplo, no sé si serviría o sería buena. Este, por ejemplo, usted busca en
+26:46
+la categoría postres, eh, sería bueno que primero salga eh por orden alfabético o por calificaciones o
+26:55
+por emprendimientos nuevos. ¿Qué sería lo más ótimo? No, yo digo por rubros. No pongan
+27:00
+emprendimientos nuevos, emprendimientos antiguos, porque eso va a ser un tema de doble filo. Eh, por ejemplo, Alex hoy
+27:08
+día abrió el emprendimiento de bebidas. Si no soy conocido no es atractivo,
+27:15
+¿se dan cuenta? Entonces yo más bien les digo, pongan por rubros dulces, este,
+27:22
+moda, pero más o menos para clasificar el orden de eso, ¿cómo sería? Ajá. Conforme ellos en orden alfabético.
+27:28
+Orden alfabético. Ajá. Okay. Si es panadería, PA, eh, PE, PI, que
+27:34
+tengan supercar. Así ustedes no tienen también favoritismos. Sí, porque pueden llegar un rato que les
+27:41
+diga, "Mira, Juan abrió el negocio ayer y está en primer lugar. Yo llevo 5 años,
+27:46
+no vendo y estoy último." ¿Se da cuenta? Sí. El eh su emprendedor no va a entender su
+27:53
+algoritmo técnico. Miren, nosotros no entendemos los algoritmos todavía de las redes sociales. Si los entendieron,
+28:00
+toditos fuamos influencers, pero eh muy pocos llegan a entender esa parte. Por
+28:07
+eso es que es mejor que ustedes tengan y listo. Perfecto. Y disculpe, ¿cuáles son los usuarios que
+28:13
+deberían participar en el sistema? Ya. Unos son los estudiantes, los docentes, pero ¿qué otro?
+28:19
+Padre de familia. Ajá. Como mencionaba también eh hace rato,
+28:25
+que a veces hay personas que no saben hacer sacar a hacer los permisos.
+28:30
+Ajá. debería también poner contacto de
+28:35
+de personas que ya tienen su emprendimiento para que les ayuden. Ajá. O yo ahí haría, perdón, una red de
+28:43
+voluntarios, como que digas, por ejemplo, "Hola, ¿cuál es tu idea de negocio? Yo voy a
+28:49
+hacer chocolates. Entonces, ¿quieres conocer el testimonio de un emprendedor de chocolates?" Sí. Muy bien. Te
+28:56
+contacto con Juan. ¿Se da cuenta? Ahí no queda muy suelto.
+29:02
+Sí. Ya. Eh, consider que exista el control sobre quién publica o edita información
+29:08
+institucional, eh, pero que sea através automatizado.
+29:13
+¿Qué significa? ar y pongan una guía que detecte ciertos temas de privacidad, de
+29:20
+violencia y todo ese tipo de cosas porque va a ser duro. Imagínense ustedes
+29:26
+dando clic este 200 emprendedores por día. Claro.
+29:31
+Puesto este sub utilizado y un costo alto para su plataforma.
+29:37
+Sí, que sea como un detector, tal como son las redes, ellos tienen guías que detectan este tema de insultos, de malas
+29:44
+palabras, mal comportamiento y para validar eso.
+29:50
+Le gustaría también que la plataforma sea un centro como para dar a conocer los emprendimientos o también que sea
+29:56
+tipo un marketplace, o sea, por ejemplo, yo quiero ver un chocolate y que este, por ejemplo, este, un botón de comprar y
+30:03
+que eso le envié un correo al emprendedor. emprendedor o solo sería poner el contacto del
+30:08
+emprendedor para si tú quieres comprar. Ajá. Podría tercer ese ese marketplace.
+30:13
+Ya puedo ser el centro de apoyo, así como información, todo, pero también como que
+30:19
+tirar a marketplace. Ajá. Efectivamente. Okay, entonces estaría
+30:26
+sería todo. Eh, muchas gracias por su tiempo. Encantadísimo. Estoy a la espero que
+30:33
+muestre. Sería dentro de unas dos o tres semanas más o menos le enviaremos un un correo.
+30:39
+Sí, por favor. Sí. Entonces, le enviamos un correo para que son los de la plataforma. Sí, porque ahorita lo que estamos
+30:44
+ahorita en vacaciones vamos a desarrollar lo que sería me anante Figma, ya. este, cómo se más o menos se vería
+30:51
+lo que sería la parte web, cómo queremos, cómo es nuestra idea, ¿ya? Para ver qué podemos mejorar, qué
+30:56
+podemos quitar, qué sería chéveras, pero también pregúntale a un estudiante.
+31:01
+Okay. Ya. Y sea de cualquier ciclo, ¿no? Ajá. Que que tenga una característica deedor
+31:07
+para que él también les dé un feedback. Eso es importante. Ya. Chévere, chicos. Un gustazo desorden.
+

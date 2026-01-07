@@ -1,0 +1,164 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// Enums
+enum RolNombre {
+  ADMIN
+  EMPRENDEDOR
+  TUTOR
+  VISITANTE
+}
+
+enum EstadoMentoria {
+  PENDIENTE
+  APROBADA
+  REALIZADA
+  CANCELADA
+}
+
+// Models
+
+model Usuario {
+  id        Int      @id @default(autoincrement())
+  nombre    String
+  apellido  String
+  email     String   @unique
+  password  String
+  telefono  String?
+  fechaRegistro DateTime @default(now())
+  
+  // Relations
+  rolId     Int
+  rol       Rol      @relation(fields: [rolId], references: [id])
+  
+  emprendimientos Emprendimiento[]
+  resenas         Resena[]
+  mentorias       Mentoria[] // As entrepreneur
+  perfilTutor     Tutor?     // If user is a tutor
+  
+  @@map("usuarios")
+}
+
+model Rol {
+  id          Int       @id @default(autoincrement())
+  nombre      RolNombre @unique
+  descripcion String?
+  
+  usuarios    Usuario[]
+  
+  @@map("roles")
+}
+
+model Categoria {
+  id        Int      @id @default(autoincrement())
+  nombre    String   @unique // e.g., Alimentos, Moda
+  descripcion String?
+  
+  emprendimientos Emprendimiento[]
+  
+  @@map("categorias")
+}
+
+model Emprendimiento {
+  id          Int      @id @default(autoincrement())
+  nombre      String
+  descripcion String   @db.Text
+  logo        String?
+  redesSociales Json?  // Store links as JSON { instagram: "url", ... }
+  activo      Boolean  @default(true)
+  fechaCreacion DateTime @default(now())
+
+  // Relations
+  usuarioId   Int
+  usuario     Usuario  @relation(fields: [usuarioId], references: [id])
+  
+  categoriaId Int
+  categoria   Categoria @relation(fields: [categoriaId], references: [id])
+  
+  productos   Producto[]
+  resenas     Resena[]
+  
+  @@map("emprendimientos")
+}
+
+model Producto {
+  id          Int      @id @default(autoincrement())
+  nombre      String
+  descripcion String?  @db.Text
+  precio      Decimal  @db.Decimal(10, 2)
+  imagen      String?
+  disponible  Boolean  @default(true)
+  
+  // Relations
+  emprendimientoId Int
+  emprendimiento   Emprendimiento @relation(fields: [emprendimientoId], references: [id])
+  
+  @@map("productos")
+}
+
+model Resena {
+  id          Int      @id @default(autoincrement())
+  puntaje     Int      // 1-5
+  comentario  String?  @db.Text
+  fecha       DateTime @default(now())
+  
+  // Relations
+  usuarioId   Int
+  usuario     Usuario  @relation(fields: [usuarioId], references: [id])
+  
+  emprendimientoId Int
+  emprendimiento   Emprendimiento @relation(fields: [emprendimientoId], references: [id])
+  
+  @@map("resenas")
+}
+
+model Tutor {
+  id          Int      @id @default(autoincrement())
+  especialidad String
+  bio         String?
+  
+  // Relations
+  usuarioId   Int      @unique
+  usuario     Usuario  @relation(fields: [usuarioId], references: [id])
+  
+  mentorias   Mentoria[]
+  
+  @@map("tutores")
+}
+
+model Mentoria {
+  id          Int      @id @default(autoincrement())
+  tema        String
+  fechaSolicitada DateTime
+  estado      EstadoMentoria @default(PENDIENTE)
+  notas       String?  @db.Text
+  
+  // Relations
+  emprendedorId Int
+  emprendedor   Usuario @relation(fields: [emprendedorId], references: [id])
+  
+  tutorId     Int?
+  tutor       Tutor?   @relation(fields: [tutorId], references: [id])
+  
+  @@map("mentorias")
+}
+
+model Evento {
+  id          Int      @id @default(autoincrement())
+  titulo      String
+  descripcion String?  @db.Text
+  fechaInicio DateTime
+  fechaFin    DateTime?
+  ubicacion   String?
+  tipo        String   // e.g., Feria, Webinar
+  
+  createdAt   DateTime @default(now())
+  
+  @@map("eventos")
+}

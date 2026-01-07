@@ -1,0 +1,13 @@
+src/modules/auth/auth.routes.ts(8,18): error TS2347: Untyped function calls may not accept type arguments.
+src/modules/auth/auth.routes.ts(22,12): error TS7006: Parameter 'request' implicitly has an 'any' type.
+src/modules/auth/auth.routes.ts(22,21): error TS7006: Parameter 'reply' implicitly has an 'any' type.
+src/modules/auth/auth.routes.ts(67,12): error TS7006: Parameter 'request' implicitly has an 'any' type.
+src/modules/auth/auth.routes.ts(67,21): error TS7006: Parameter 'reply' implicitly has an 'any' type.
+src/modules/entrepreneurship/entrepreneurship.routes.ts(6,18): error TS2347: Untyped function calls may not accept type arguments.
+src/modules/entrepreneurship/entrepreneurship.routes.ts(26,12): error TS7006: Parameter 'request' implicitly has an 'any' type.
+src/modules/entrepreneurship/entrepreneurship.routes.ts(26,21): error TS7006: Parameter 'reply' implicitly has an 'any' type.
+src/modules/products/products.routes.ts(7,18): error TS2347: Untyped function calls may not accept type arguments.
+src/modules/products/products.routes.ts(9,26): error TS7006: Parameter 'request' implicitly has an 'any' type.
+src/modules/products/products.routes.ts(9,35): error TS7006: Parameter 'reply' implicitly has an 'any' type.
+src/modules/products/products.routes.ts(28,12): error TS7006: Parameter 'request' implicitly has an 'any' type.
+src/modules/products/products.routes.ts(28,21): error TS7006: Parameter 'reply' implicitly has an 'any' type.
